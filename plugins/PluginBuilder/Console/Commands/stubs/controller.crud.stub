@@ -1,0 +1,85 @@
+<?php namespace DummyNamespace;
+
+use Zix\PluginName\Models;
+use Zix\PluginName\Http\Resources\ModelName as ModelNameResources;
+//use Zix\PluginName\Events\ModelName as ModelNameEvents;
+use Zix\PluginName\Http\Requests\ModelName as ModelNameRequests;
+
+/**
+ * Class DummyClass
+ * @property Models\ModelName model
+ * @package Zix\PluginName\Http\Controllers
+ */
+class DummyClass
+{
+    /**
+     * TestController constructor.
+     * @param Models\ModelName $model
+     */
+    public function __construct(Models\ModelName $model)
+    {
+        $this->model = $model;
+    }
+
+    /**
+     * @param ModelNameRequests\ModelNameShowRequest $request
+     * @return ModelNameResources\ModelNameResourceCollection
+     */
+    public function index(ModelNameRequests\ModelNameShowRequest $request)
+    {
+        return new ModelNameResources\ModelNameResourceCollection(datatables()->of($this->model->query()));
+    }
+
+    /**
+     * @param ModelNameRequests\ModelNameShowRequest $request
+     * @param Models\ModelName $ModelSmallName
+     * @return ModelNameResources\ModelNameResource
+     */
+    public function show(ModelNameRequests\ModelNameShowRequest $request, Models\ModelName $ModelSmallName)
+    {
+        return new ModelNameResources\ModelNameResource($ModelSmallName);
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  ModelNameRequests\ModelNameStoreRequest $request
+     * @return ModelNameResources\ModelNameResource
+     */
+    public function store(ModelNameRequests\ModelNameStoreRequest $request)
+    {
+        $model = $this->model->create($request->input());
+        //event(new ModelNameEvents\ModelNameStoredEvent($model));
+
+        return new ModelNameResources\ModelNameResource($model);
+    }
+
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  Models\ModelName  $ModelSmallName
+     * @param  ModelNameRequests\ModelNameUpdateRequest $request
+     * @return ModelNameResources\ModelNameResource
+     */
+    public function update(ModelNameRequests\ModelNameUpdateRequest $request, Models\ModelName $ModelSmallName)
+    {
+        $ModelSmallName->update($request->input());
+        //event(new ModelNameEvents\ModelNameUpdatedEvent($ModelSmallName));
+
+        return new ModelNameResources\ModelNameResource($ModelSmallName);
+    }
+
+    /**
+     * @param ModelNameRequests\ModelNameDestroyRequest $request
+     * @param Models\ModelName $ModelSmallName
+     * @return ModelNameResources\ModelNameResource
+     */
+    public function destroy(ModelNameRequests\ModelNameDestroyRequest $request, Models\ModelName $ModelSmallName)
+    {
+        //event(new ModelNameEvents\ModelNameDestroyedEvent($ModelSmallName));
+        $ModelSmallName->delete();
+
+        return new ModelNameResources\ModelNameResource($ModelSmallName);
+    }
+}

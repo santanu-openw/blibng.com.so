@@ -1,0 +1,97 @@
+/** Stylus Styles */
+
+// Available variables https://github.com/vuetifyjs/vuetify/blob/master/src/stylus/settings/_variables.styl
+$body-font-family = 'DroidArabicKufiRegular'
+@import '~vuetify/src/stylus/main'
+@import "~toastr/build/toastr.css";
+@import "stylus/rtl.styl"
+@import "fonts/font.styl"
+
+/*
+ * Router Animations
+ */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.text-capitalize
+  text-transform: capitalize
+
+.btn-group .btn
+  opacity: 1 !important
+
+.tablage--btn
+  bottom: 75px !important
+
+.tablage--speed-dial
+  bottom: 103px !important
+  right: 8px !important
+
+.text-center {
+  text-align: center;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.img-responsive.logo:hover {
+  cursor: pointer
+}
+
+.l-sidebar {
+  padding-top: 20px;
+}
+
+.v-note-wrapper.markdown-body {
+  z-index 1;
+}
+
+.l-footer__copy_write {
+  margin-top: -15px;
+}
+
+.avatar-img {
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 1904px) {
+  .container {
+    max-width: 1185px;
+  }
+}
+
+//main {
+//  padding: 0 !important
+//}
+
+.item_services .v-expansion-panel__header, .selected_pack .v-expansion-panel__header {
+  height: auto;
+}
+
+.booking__stepper .v-stepper__step__step {
+  display: none;
+}
+
+.client__details .v-text-field .v-input__slot,
+.credit__card .v-text-field .v-input__slot {
+  background-color: #ffffff !important;
+  border: 1px solid #c6c8cc !important;
+  border-radius: 0;
+}
+
+.client__details .v-text-field .v-input__slot, .credit__card .v-text-field .v-input__slot {
+  height: 56px;
+  padding-right: 15px
+}

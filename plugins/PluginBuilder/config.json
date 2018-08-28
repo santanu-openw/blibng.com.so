@@ -1,0 +1,20 @@
+{
+  "name": "PluginBuilder",
+  "alias": "plugin-builder",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "enable": true,
+  "order": 0,
+  "providers": [
+    "Zix\\PluginBuilder\\Providers\\PluginBuilderServiceProvider",
+    "Zix\\PluginBuilder\\Providers\\ConsoleServiceProvider",
+    "Zix\\PluginBuilder\\Providers\\EventServiceProvider"
+  ],
+  "aliases": [
+
+  ],
+  "files": [
+
+  ]
+}

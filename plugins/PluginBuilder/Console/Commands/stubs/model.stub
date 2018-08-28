@@ -1,0 +1,17 @@
+<?php
+
+namespace DummyNamespace;
+
+use Zix\Core\Models\BaseModel;
+
+/**
+ * Class DummyClass
+ * @package DummyNamespace
+ */
+class DummyClass extends BaseModel
+{
+    /**
+     * @var array
+     */
+    protected $fillable = [];
+}

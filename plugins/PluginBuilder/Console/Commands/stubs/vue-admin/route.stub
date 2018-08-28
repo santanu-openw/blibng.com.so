@@ -1,0 +1,36 @@
+import {Component, ComponentEdit, ComponentShow} from './../components/+Path';
+
+export default [
+    {
+        name: 'Name.index',
+        path: '/Path',
+        component: Component,
+        meta: { requiresAuth: true, permission: 'view_Permission', icon: 'pages', menu: true },
+        children: [
+            {
+                name: 'Name.index',
+                path: '/Path',
+                component: Component,
+                meta: { requiresAuth: true, permission: 'view_Permission', menu: true }
+            },
+            {
+                name: 'Name.create',
+                path: '/Path/create',
+                component: ComponentEdit,
+                meta: { requiresAuth: true, permission: 'create_Permission', menu: true }
+            },
+             {
+                name: 'Name.edit',
+                path: '/Path/:id/edit',
+                component: ComponentEdit,
+                meta: { requiresAuth: true, permission: 'edit_Permission', menu: true }
+            },
+            {
+                name: 'Name.show',
+                path: '/Path/:id/show',
+                component: ComponentShow,
+                meta: { requiresAuth: true, permission: 'view_Permission', menu: true }
+            }
+        ]
+    }
+]

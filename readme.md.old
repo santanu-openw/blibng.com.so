@@ -1,0 +1,8 @@
+# Bling.com.sa Project
+
+
+## Project Setup
+`composer install`
+`php artisan zix:install`
+
+`yarn install`

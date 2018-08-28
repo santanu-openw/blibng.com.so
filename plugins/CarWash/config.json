@@ -1,0 +1,20 @@
+{
+  "name": "CarWash",
+  "alias": "carwash",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "enable": true,
+  "order": 2,
+  "providers": [
+    "Zix\\CarWash\\Providers\\CarWashServiceProvider",
+    "Zix\\CarWash\\Providers\\EventServiceProvider",
+    "Zix\\CarWash\\Providers\\RouteServiceProvider"
+  ],
+  "aliases": [
+
+  ],
+  "files": [
+
+  ]
+}
