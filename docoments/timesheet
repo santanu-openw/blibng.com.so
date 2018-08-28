@@ -1,0 +1,423 @@
+-Page Administrator
+• User profile (Modification )
+- Full name
+- Date of Birth   - New
+- Address         - New
+- E - mail
+- Gender
+- phone           - New
+- Mobile          - New
+- personal picture
+- User Role ) manager, team or user (
+- Updated
+- Added in
+
+************* 1 hours **************
+
+========================================================================================
+• Users (Add, edit, remove, print and download EXCEL)
+- Name
+- Date of Birth  - New
+- Address (Add, edit, remove more than one address) -New
+- Email (mandatory)
+- Gender
+- the phone
+- Mobile (Not mandatory) - New
+- Updated at
+- Added at
+- User picture
+- User roles (admin, team or user )  -New
+- Social Media (Add, edit, remove)   - New
+- Package and services selected by the client (Add, edit,
+remove, renew, more info’s)   New
+
+************* 5 hours **************
+
+==========================================================================================
+<???????????????????????? ?>
+Team tasks (Add, edit, remove)
+- Name
+- Customer Name
+- Customer package
+- Status (activated, not activated, pending)
+- Added at
+- Updated at
+- View more )washing schedule tasks for the working
+group for each customer )
+
+Comments:  I have created a team account from admin(bling-admin) but can not login, is there any specific url fro team login?
+
+============================================================================================
+
+• Services (Add, edit, remove)
+- Name
+- Description
+- P rice ( the price of the service in Saudi Riyal)
+- Service time )service time in minutes )
+- Added at
+- Updated at
+
+Comments: All are there
+
+============================================================================================
+
+Packages (Add, edit, remove)
+- Package Name (Washing once, laundry once a week for a
+month ....)
+- Services )external washing, internal washing ...)  - New
+- Offers
+Ex: When a customer chose a package wash once a
+week for on month, one wash car will give to customer for
+free for a period inserted by admin.    - New
+- Added at
+- Updated at
+
+*************2 hours **************
+
+============================================================================================
+
+Offers (Add, edit, remove)
+- D isplay name
+- Package Name - New
+- Services     - New
+- Offer start at
+- Offer end at
+- Number of free Washes
+- Free offer period validity -new
+- Added at
+- Updated at
+
+*************2 hours **************
+
+============================================================================================
+
+• Car Size (Add, edit, remove)
+- Size Name (Small, medium, big, large)
+- Car Icon
+- Price (in Percentage %) UPDATING price service by vehicle
+size
+- Added at
+- Updated at
+
+Comments: Not Present in admin panel
+
+************* 2 hours **************
+
+=============================================================================================
+
+• Determine the number of Washes (Add, edit, remove)- Number of Washes ) Every hour )
+- Number of cars available ) Every hour )
+- Added in
+- Updated
+• Appointments
+
+Comments: Not Present in admin panel
+
+*************2 hours **************
+
+==============================================================================================
+
+• Appointments (Add, edit, remove, print and download
+EXCEL)
+- Customer name
+- Size of the car
+- Services
+- Package
+- Car numbers
+- Washing schedules )schedule dates for client during a
+year per day, time and place( More discontinuity button
+- Notes
+- Added at
+- Updated at
+
+Comments: Not Present in admin panel
+
+*************5 hours **************
+
+==============================================================================================
+
+• Invoice Status (Add, edit, remove)
+- Status (Paid, hold, cancelled)
+- Added at
+- Updated at
+
+Comments: Not Present in admin panel
+
+*************2 hours **************
+
+================================================================================================
+
+Orders (Add, edit, remove, print and download EXCEL)
+- Bill number
+- Customer name
+- Appointment ( Linking schedule appointments( More infos
+button
+- Price
+- Package
+- Offers
+- Payment method (Credit card or payment on place) Notes
+- Invoice Status
+- Added at
+- Updated at
+
+Comments: Not Present in admin panel
+
+*************6 hours **************
+
+====================================================================================================
+Company Services (Add, edit, remove)
+- Services Icon
+- Service Name
+- Service Description
+- Added at
+- Updated at
+
+Comments: Not Present in admin panel
+
+*************2 hours **************
+
+=====================================================================================================
+
+• Photo Gallery (Add, edit, remove)
+
+Comments: Though gallery is there, but photo is not uploaded and gallery table has no field for image
+
+*************2 hours **************
+
+=====================================================================================================
+
+• Testimonial (Add, edit, remove customer review after each
+service)
+- Customer name
+- Customer image
+- Like (Like, dislike)
+- comment
+- Added at
+- Updated at
+
+Comments: Present in admin panel, but not in frontend
+
+*************1 hours **************
+
+=====================================================================================================
+
+Pages (Add, edit, remove)
+- Name
+- Title
+- Description
+- Added at
+- Updated at
+
+Comments: add pages is not present
+
+*************1 hours **************
+
+=====================================================================================================
+
+Blog (Add, edit, remove)
+- Name
+- Title
+- Description
+- Added at
+- Updated at
+
+Comments: except add, everything working
+
+*************1 hours **************
+
+========================================================================================================
+
+- Partner Logos (Add, edit, remove)
+- Logo
+- Name
+- Website URL
+- Added at
+- Updated at
+
+Comments: everything works
+
+=========================================================================================================
+
+Contact Us (Add, edit, remove, print and download EXCEL)
+- Customer name
+- Mobile number
+- E - mail
+- Subject
+- Message
+
+Comments: mobile, email, subject is not in fronend. I think add functionlity should not be needed here. 
+
+*************1 hours **************
+
+==========================================================================================================
+
+Settings
+- General
+1. Website logo
+2. Website name
+3. Website Phone
+4. Mobile Site
+5. E - mail-
+6. Address
+7. Google map position
+
+Comments: Nothing is there(admin panel)
+
+*************1 hours **************
+
+============================================================================================================
+
+Social media (Add, edit, remove)
+1. Icon
+2. Name
+3. Link
+1. Working hours per week (Add, edit, remove)
+2. Today )Sunday to Saturday )
+3. Begin working time
+4. End working time
+
+Comments: Nothing is there(admin panel)
+
+*************1 hours **************
+
+===============================================================================================================
+
+<??????????????? Need more clarification ???????????????? >
+Payment method
+1. Credit card (demo or productions with access API
+account )
+2. Payment on place (enabled, disabled)
+
+Comments: Not found
+
+================================================================================================================
+
+Customer
+
+Customer profile (Add, edit, remove)
+- Full name
+- Date of Birth
+- Address
+- E - mail (required)
+- Gender
+- Phone number
+- Mobile (required)
+- Picture
+- Package
+- Added at
+- Updated at
+
+*************3 hours **************
+
+================================================================================================================
+
+Cars (Add, edit, remove)
+- Icon
+- Car Size
+- Car numbers
+- Added at
+- Updated at
+
+
+*************2 hours **************
+
+================================================================================================================
+
+Client schedule (Customer can change schedule during the
+year with date, time and wash place )
+- Size of the car-
+-Car numbers
+Services
+Package
+Washing dates (Customer schedule during the year with
+date, time and wash place) More info’s button
+Notes
+Status
+Added at
+Updated at
+
+Comments: I am not able to book a date
+
+*************8 hours **************
+=====================================================================================================================
+
+• Orders ) View, Print (
+- Bill number
+- Customer name
+- Appointment
+- Price
+- Display
+- Payment method (credit card or Payment on place )
+- Notes
+- Invoice Status
+- Added at
+
+Comments: name, bill number,payment method, invoice status, appointment are not there
+
+*************5 hours **************
+
+Renew package and services and change the package and
+services by credit card or payment on place (renewal,
+modification, more details to schedule renewal process, and
+print)
+- Package Name
+- Services
+- Vehicle size
+- price
+- Added at
+- Renewed at
+
+When a customer renew subscription , an icon display with
+case proved that the car is different size than the current
+size subscription no money will be returned
+
+When a customer renew subscription , an icon display with
+case proved that the size of the vehicle is same to the
+current size subscription same price will be paid
+
+When a customer renew subscription , an icon display with
+case proved that the car has different services than the
+current subscription services no money will be returned
+
+SMS alerts )text message is sent to the client after each
+registration for membership or book an appointment, e - mail
+or password )
+It’s required for customer to add mobile numbers in Saudi
+Arabia, starting with 966 in mobile and send a confirmation
+code to mobile phone number to activate account
+It’s required for customer to select washes number from 1 to
+7 times a week.
+It’s required for customer to select day, time and place for
+washing.
+When the customer selects his choices, it will automatically
+add for all weeks during subscription.
+One wash or monthly subscription or three months
+subscription , six monthly subscription or a full year
+Appear package price and services belong
+
+Comments:Renew system is not there and again payment method is not there
+
+*************8 hours **************
+
+===========================================================================================================
+
+Visitors page or site ( we will discuss this part later )
+View Services
+who are we
+Photo Gallery
+Staff
+Stone appointments
+Customer Testimonials
+Blog
+Partner Logos
+call us
+Login page for client appointments
+questions and answers
+paying off Thedirect )Lets the customer choose to pay by
+) credit card or payment upon the arrival of the service
+• SMS alerts )text message is sent to the client after each
+recording for membership or book an appointment or
+) Ngarmuad, e - mail or password
+
+*************5 hours **************
+
